@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+sentence-transformers
+faiss-cpu
+requests
+openai
+tqdm
+python-Levenshtein
+python-dotenv
+matplotlib
+seaborn

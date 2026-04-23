@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sdp"
+version = "0.1.0"
+description = "Change-aware software defect prediction prototype packaged as a modular Python project."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "sentence-transformers",
+    "faiss-cpu",
+    "requests",
+    "openai",
+    "tqdm",
+    "python-Levenshtein",
+    "python-dotenv",
+    "transformers",
+    "torch",
+    "tiktoken",
+    "matplotlib",
+    "seaborn"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+include-package-data = true

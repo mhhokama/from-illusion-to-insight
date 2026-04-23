@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+sentence-transformers
+faiss-cpu
+requests
+openai
+tqdm
+python-Levenshtein
+python-dotenv
+transformers
+torch
+tiktoken
+matplotlib
+seaborn
