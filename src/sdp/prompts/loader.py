@@ -2,10 +2,12 @@
 Prompt loader for managing and substituting expert system prompts.
 """
 from typing import Dict, Any
-from .analyzer import get_analyzer_prompt
-from .proposer import get_proposer_prompt
-from .skeptic import get_skeptic_prompt
-from .judge import get_judge_prompt
+from .roles import (
+    get_analyzer_prompt,
+    get_proposer_prompt,
+    get_skeptic_prompt,
+    get_judge_prompt,
+)
 
 
 class PromptLoader:
